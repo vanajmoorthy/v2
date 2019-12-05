@@ -1,0 +1,28 @@
+{
+  "name": "newwebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss CSS/tailwind.css -o public/build/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanajmoorthy/newwebsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanajmoorthy/newwebsite/issues"
+  },
+  "homepage": "https://github.com/vanajmoorthy/newwebsite#readme",
+  "dependencies": {
+    "autoprefixer": "^9.6.1",
+    "postcss-cli": "^6.1.3",
+    "tailwindcss": "^1.0.5"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.2.0"
+  }
+}
